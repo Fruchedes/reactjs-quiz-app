@@ -1,7 +1,7 @@
 name: React.js CI
 
 on:
-  pull_request:
+  push:
     branches: "master"
 
 jobs:
@@ -127,7 +127,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Run Snyk to check for vulnerabilities
       uses: snyk/actions/node@master
-      continue-on-error: true # To make sure that SARIF upload gets called
+      continue-on-error: true # To make sure that SARIF upload  called
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 
@@ -186,7 +186,6 @@ jobs:
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       continue-on-error: true
-
 
 
   backend-image:

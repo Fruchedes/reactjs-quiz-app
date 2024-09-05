@@ -1,6 +1,6 @@
 # Kubernetes DevSecOps CICD Project Using Github Actions and ArgoCD
 
-[![Master Three-Tier Application | A Complete DevSecOps Guide on AWS with Kubernetes, GitOps & ArgoCD]v=EVG51U3VcYs "Mastering Cloud-Native Applications: A Complete DevSecOps Guide on AWS with Kubernetes")
+[![Master Three-Tier Application | A Complete DevSecOps Guide on AWS with Kubernetes, GitOps & ArgoCD]  "Mastering Cloud-Native Applications: A Complete DevSecOps Guide on AWS with Kubernetes")
 
 
 ![gif2](https://github.com/cloudcore-hub/reactjs-quiz-app/assets/88560609/a0dfce93-3bde-45af-b82a-d7c9e2c47294)

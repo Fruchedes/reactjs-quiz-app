@@ -71,10 +71,6 @@ cat key.pub
 
 Go to the Settings of your Github account from profile section.
 Go to Access Section on the left **SSH and GPG Keys** and **New SSH key**. Give a title and paste the content of key.pub
-
-![Screenshot 2024-02-28 at 9 27 39 AM](https://github.com/cloudcore-hub/Kubernetes-DevSecOps-CI-CD-Project/assets/88560609/9cfbd7f0-27f9-4180-b5e1-a18e2eb8386f)
-
-
 Back to the computer terminal and run the command
 ```
 export GIT_SSH_COMMAND="ssh -i ~/.ssh/key"
